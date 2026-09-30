@@ -17,7 +17,7 @@ Stock HeadsetControl could see the USB receiver but often could not read battery
 
 The tray app runs in the background **with no console window**.
 
-| What you see / do | Meaning |
+| What you see / do | Meaning | [How it actually looks..](<((https://imgur.com/a/tray-icon-demo-XqMOsx3)>)
 |-------------------|---------|
 | **Number on the icon** | Battery percent (colors: white normal, yellow low/charging, red critical) |
 | **Red slash over the number** | Mic boom is muted (up) |
@@ -31,6 +31,16 @@ The tray app runs in the background **with no console window**.
 1. Build both programs (`build_all.bat`), or build CLI + tray separately.
 2. Put `headsetcontrol.exe` (or `HS80Control.exe`) in the **same folder** as `HS80Tray.exe`.
 3. Double-click `HS80Tray.exe`.
+
+Optional:
+If you want the program to start with windows.
+1. Windows + R (Run window)
+2. taskschd.msc (Enter)
+3. Right click, new task and enter a name
+4. Go to triggers and press New, change to "Begin the task: at logon" and press any user and use a delay of 1 minute (or longer if you want).
+5. Go to actions, make sure it says "start a program" then point to your fully built "hs80tray.exe" (or the one from releases tab if you only care for the final windows program. (haven't tested anything else but Windows 10 LTSC Iot, Swedish/Nordic version.)
+6. Press OK and close everything and it should work.
+[Picture tutorial](<(https://imgur.com/a/HEg7rHj)>)
 
 The tray does not talk to the headset by itself; it calls the CLI (`-bc` for battery, `-o json` for mic, `-l toggle` for lights).
 

@@ -17,7 +17,7 @@ Stock HeadsetControl could see the USB receiver but often could not read battery
 
 The tray app runs in the background **with no console window**.
 
-| What you see / do | Meaning | [How it actually looks.](https://imgur.com/a/tray-icon-demo-XqMOsx3)
+| What you see / do | Meaning | 
 |-------------------|---------|
 | **Number on the icon** | Battery percent (colors: white normal, yellow low/charging, red critical) |
 | **Red slash over the number** | Mic boom is muted (up) |
@@ -25,6 +25,8 @@ The tray app runs in the background **with no console window**.
 | **Right-click → LED Toggle** | Turns headset LEDs off or on |
 | **Right-click → Reload** | Refresh battery/mic now (otherwise about every 60 seconds) |
 | **Right-click → Exit** | Quit the tray app |
+
+[How it actually looks.](https://imgur.com/a/tray-icon-demo-XqMOsx3)
 
 **Setup**
 

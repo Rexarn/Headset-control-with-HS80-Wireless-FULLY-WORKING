@@ -2,7 +2,9 @@
 
 Windows tools for the **Corsair HS80 MAX Wireless** only (dongle `1B1C:0A97`, headset `0x0A96`).
 
-This is **not** a general multi-headset HeadsetControl build. It targets this model because that is what was tested and fixed. If someone ports pieces into the main [HeadsetControl](https://github.com/Sapd/HeadsetControl) project (or similar), they are welcome to use this work however they like — just give credit and a thanks to the people who reverse-engineered and implemented the HS80 MAX path (Me, Rexarn who finally took on the challenge to fix this and poke the clanker in the right direction, and said what was working and not and Grok who is a fucking wizard at whatever he does.).
+This is **not** a general multi-headset HeadsetControl build. It targets this model because that is what was tested and fixed. If someone ports pieces into the main [HeadsetControl](https://github.com/Sapd/HeadsetControl) project (or similar), they are welcome to use this work however they like — just give credit and a thanks to the people who reverse-engineered and implemented the HS80 MAX path (Me, Rexarn who finally took on the challenge to fix this andpoke the clanker in the right direction, and said what was working and not and Grok who is a fucking wizard at whatever he does.).
+
+#DON'T KNOW IF THIS WILL WORK WITH ICUE RUNNING! I DON'T USE IT AND DON'T HAVE IT INSTALLED!!
 
 ## Why this exists
 

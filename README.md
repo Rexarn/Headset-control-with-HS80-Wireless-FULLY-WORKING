@@ -62,6 +62,7 @@ The tray does not talk to the headset by itself; it calls the CLI (`-bc` for bat
 | List HID collections | `headsetcontrol list` |
 
 Works as a drop-in `headsetcontrol.exe` for **HeadsetControl-GUI** on this headset (battery, sidetone, inactivity, lights). The GUI’s Microphone tab may stay empty: boom mute is status-only, not full mic controls.
+(You have to rename the HS80Control.exe to headsetcontrol.exe or it will throw file not existing errors)
 
 ## What each file is for
 

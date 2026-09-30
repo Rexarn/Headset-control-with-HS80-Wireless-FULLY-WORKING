@@ -2,7 +2,7 @@
 
 Windows tools for the **Corsair HS80 MAX Wireless** only (dongle `1B1C:0A97`, headset `0x0A96`).
 
-This is **not** a general multi-headset HeadsetControl build. It targets this model because that is what was tested and fixed. If someone ports pieces into the main [HeadsetControl](https://github.com/Sapd/HeadsetControl) project (or similar), they are welcome to use this work however they like — just give credit and a thanks to the people who reverse-engineered and implemented the HS80 MAX path (the headset owner who tested it, and the session that produced this code).
+This is **not** a general multi-headset HeadsetControl build. It targets this model because that is what was tested and fixed. If someone ports pieces into the main [HeadsetControl](https://github.com/Sapd/HeadsetControl) project (or similar), they are welcome to use this work however they like — just give credit and a thanks to the people who reverse-engineered and implemented the HS80 MAX path (Me, Rexarn who finally took on the challenge to fix this and poke the clanker in the right direction, and said what was working and not and Grok who is a fucking wizard at whatever he does.).
 
 ## Why this exists
 
@@ -80,3 +80,27 @@ build_all.bat
 MIT licensed. Upstream authors and anyone else may take this code, ideas, or protocol notes for the wider HeadsetControl ecosystem (or their own tools). Please credit the HS80 MAX work and say thanks — that is all that is asked.
 
 Not affiliated with Corsair or the HeadsetControl project.
+
+Sources used Thank you <3:
+
+- Sapd / HeadsetControl
+  https://github.com/Sapd/HeadsetControl
+
+- HeadsetControl-GUI
+  https://github.com/HeadsetControl-GUI/HeadsetControl-GUI
+
+- zampierilucas / HeadsetControl-SystemTray
+  https://github.com/zampierilucas/HeadsetControl-SystemTray
+
+- ToastKiste21 / corsair-hs80-max-re (Bragi protocol, HS80 MAX RE)
+  https://github.com/ToastKiste21/corsair-hs80-max-re
+  https://github.com/ToastKiste21/corsair-hs80-max-re/blob/master/docs/bragi_protocol.md
+
+- HeadsetControl wiki – API / building on HeadsetControl
+  https://github.com/Sapd/HeadsetControl/wiki/API-%E2%80%90-Building-Applications-on-top-of-HeadsetControl
+
+- HeadsetControl – adding a Corsair device
+  https://github.com/Sapd/HeadsetControl/blob/master/docs/ADDING_A_CORSAIR_DEVICE.md
+
+- Live testing on Corsair HS80 MAX Wireless
+  Dongle USB ID 1B1C:0A97, headset 1B1C:0A96 (RF mode)
